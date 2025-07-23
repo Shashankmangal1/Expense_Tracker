@@ -68,7 +68,7 @@ Implemented using **CSS media queries** and flexible layouts.
 
 ## 🙌 Author
 
-Made with ❤️ by [Your Name](https://your-portfolio.com)
+Made with ❤️ by Shashank Mangal(https://github.com/Shashankmangal1)
 
 ---
 
