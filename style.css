@@ -205,3 +205,38 @@ form button:hover {
     width: 100%;
   }
 }
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.transaction-list li {
+  background: #fff;
+  color: #333;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-right: 5px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-list li.plus {
+  border-color: green;
+}
+
+.transaction-list li.minus {
+  border-color: red;
+}

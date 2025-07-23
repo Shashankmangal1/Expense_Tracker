@@ -13,28 +13,27 @@
 
     <div class="balance">
       <h2>Your Balance</h2>
-      <h3 id="balance">$0.00</h3>
+      <h3 id="balance">₹0.00</h3>
     </div>
 
     <div class="summary">
       <div class="income">
         <h4>Income</h4>
-        <p id="income" class="money plus">+$0.00</p>
+        <p id="money-plus" class="money plus">+₹0.00</p>
       </div>
       <div class="expense">
         <h4>Expense</h4>
-
-        <p id="expense" class="money minus">-$0.00</p>
+        <p id="money-minus" class="money minus">-₹0.00</p>
       </div>
     </div>
 
     <h3>Transaction History</h3>
-    <ul id="transactionList" class="list"></ul>
+    <ul id="list" class="list"></ul> <!-- Single clean transaction list -->
 
     <h3>Add New Transaction</h3>
-    <form id="transactionForm">
-      <input type="text" id="text" placeholder="Enter text..." required />
-      <input type="number" id="amount" placeholder="Enter amount..." required />
+    <form id="form">
+      <input type="text" id="text" placeholder="Enter description..." required />
+      <input type="number" id="amount" placeholder="Enter amount (e.g. -200, 300)..." required />
       <button type="submit">Add Transaction</button>
     </form>
   </div>
@@ -42,4 +41,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
